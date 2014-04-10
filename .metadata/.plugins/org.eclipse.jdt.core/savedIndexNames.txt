@@ -1,0 +1,10 @@
+INDEX VERSION 1.126+C:\Users\Owner\Documents\Coursera Programming Mobile Applications for Android Handheld Systems\WorkspaceforfirstBostonexamples\.metadata\.plugins\org.eclipse.jdt.core
+2445801981.index
+884823873.index
+3980685060.index
+1238257945.index
+1060171841.index
+129645129.index
+3091413707.index
+2362473309.index
+1216435937.index

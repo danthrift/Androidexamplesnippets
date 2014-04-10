@@ -1,0 +1,30 @@
+package com.danthrift.buttons11;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ToggleButton;
+public class TextPlay extends Activity {
+
+	/* (non-Javadoc)
+	 * @see android.app.Activity#onCreate(android.os.Bundle)
+	 */
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		
+		setContentView(R.layout.textentrylayout);
+		
+		Button chkCmd = (Button) findViewById(R.id.bResults);
+		ToggleButton passTog = (Togglebutton) findViewById(R.id.tbPassword);
+	}
+	
+	
+	
+
+	
+	
+	
+	
+}

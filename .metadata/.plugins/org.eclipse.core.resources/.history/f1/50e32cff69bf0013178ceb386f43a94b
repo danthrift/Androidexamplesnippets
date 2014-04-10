@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:hint="Please Enter Data" >
+     </TextView>
+     
+    <LinearLayout 
+        android:orientation="horizontal"
+     android:weightSum="100"   
+     android:layout_width="fill_parent"
+        >
+     
+    <Button 
+      android:id="@+id/bDelete"  
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="25" 
+      android:text="Don't Send"  />
+
+    <Button
+        android:id="@+id/bSend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="75"
+        android:text="Send" />
+    
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

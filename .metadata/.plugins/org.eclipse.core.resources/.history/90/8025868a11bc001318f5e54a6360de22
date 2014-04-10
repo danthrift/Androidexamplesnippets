@@ -1,0 +1,54 @@
+package com.danthrift.buttons11;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+
+public class Splash extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		
+		setContentView(R.layout.splash);
+		
+		Thread timer = new Thread() {
+			
+			public void run(){
+				
+				try{
+					System.out.println("test");
+					sleep(5000);
+				}catch (InterruptedException e) {
+					e.printStackTrace();
+					
+				}finally {
+					
+				///////////Intent string must match AndroidManifest.xml string	
+				Intent startFullScreenActivity = new Intent("com.danthrift.buttons11.FULLSCREENACTIVITY");	
+				startActivity(startFullScreenActivity);
+				}
+				
+			}
+			
+			
+		};
+		timer.start();
+	}
+
+	/* (non-Javadoc)
+	 * @see android.app.Activity#onPause()
+	 */
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		finish();
+	}
+
+	
+	
+
+}

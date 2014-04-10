@@ -1,0 +1,4 @@
+String mover="This is a mover";
+System.out.printf("This is mover", mover);
+
+
